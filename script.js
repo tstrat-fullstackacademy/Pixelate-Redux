@@ -26,10 +26,7 @@ function colorize (event) {
   }
   if (target.className === chosenColor) {
     target.className = ''
-  } else if (target.className.length === 0) {
-    target.className = chosenColor
   } else {
-    target.className = ''
     target.className = chosenColor
   }
 }
